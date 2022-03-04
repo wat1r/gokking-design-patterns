@@ -8,6 +8,7 @@ package com.frankcooper.design.pattern.builders;
 
 import com.frankcooper.design.pattern.builders.cars.Car;
 import com.frankcooper.design.pattern.builders.cars.Manual;
+import com.frankcooper.design.pattern.builders.director.Director;
 
 /**
  * Demo class. Everything comes together here.
@@ -29,7 +30,9 @@ public class Demo {
         Car car = builder.getResult();
         System.out.println("Car built:\n" + car.getCarType());
 
+        System.out.println("\nCar  built:\n" + car.print());
 
+        System.out.println("\n----------------------\n");
         CarManualBuilder manualBuilder = new CarManualBuilder();
 
         // Director may know several building recipes.

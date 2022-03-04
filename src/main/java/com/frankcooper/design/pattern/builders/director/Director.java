@@ -1,4 +1,4 @@
-package com.frankcooper.design.pattern.builders;
+package com.frankcooper.design.pattern.builders.director;
 
 /**
  * @author: wangzhou(Frank Cooper)
@@ -6,6 +6,7 @@ package com.frankcooper.design.pattern.builders;
  * @description:
  */
 
+import com.frankcooper.design.pattern.builders.Builder;
 import com.frankcooper.design.pattern.builders.cars.CarType;
 import com.frankcooper.design.pattern.builders.components.Engine;
 import com.frankcooper.design.pattern.builders.components.GPSNavigator;
